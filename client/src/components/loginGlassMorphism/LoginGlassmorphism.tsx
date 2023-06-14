@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import './loginGlassmorphism.css'
 
@@ -16,7 +18,7 @@ const LoginGlassmorphism: React.FC = () => {
                     <div className="square square-4"></div>
                     <div className="container">
                         <div className="form">
-                            <h2>Login Form</h2>
+                            <h2>Chat Hive</h2>
                             <form>
                                 <div className="inputBox">
                                     <input type="text" placeholder="username" name="username"/>
